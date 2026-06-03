@@ -28,5 +28,5 @@ create or replace TABLE SF_DE_FRAMEWORK_DEV.CONFIG.PIPELINE (
 	ISDELETE BOOLEAN,
 	ALERTCONFIG VARCHAR(16777216),
 	constraint UK_PIPLINE_NEW_PIPELINENAME unique (PIPELINENAME)
-)COMMENT='DataAccel is driven by configuration tables that controls the entire data lifecycle. These tables defines all ingestion, transformation, validation, scheduling, and governance logic in one place.\n\nBy using one unified configuration layer, DataAccel eliminates the need for multiple metadata tables, scripts, and custom workflows—making data processing simpler, faster, and easier to manage and govern at scale.For Reference: Pipeline Table'
+)COMMENT='DataAccel is driven by configuration tables that controls the entire data lifecycle. These tables defines all ingestion, transformation, validation, scheduling, and governance logic in one place.\n\nBy using one unified configuration layer, DataAccel eliminates the need for multiple metadata tables, scripts, and custom workflows—making data processing simpler, faster, and easier to manage and govern at scale.For Reference: Pipeline Table tEST'
 ;
